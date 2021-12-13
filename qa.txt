@@ -3,7 +3,7 @@
 
 err = 1, warn = 1, info = 0
 IG Publisher Version: 1.1.90
-Generated Mon Dec 13 13:56:43 UTC 2021. FHIR version 4.0.1 for fhir.who.smart-ig-empty#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
+Generated Mon Dec 13 14:22:54 UTC 2021. FHIR version 4.0.1 for fhir.who.smart-ig-empty#0.2.1 (canonical = http://worldhealthorganization.github.io/smart-ig-empty)
  Build Errors : 31 / 0 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-fhir.who.smart-ig-empty : 1 / 1 / 1
 </table>
