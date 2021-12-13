@@ -1,0 +1,9 @@
+[
+  {
+    "id": "fhir.who.smart-ig-empty",
+    "type": "ImplementationGuide",
+    "url": "http://worldhealthorganization.github.io/smart-ig-empty/ImplementationGuide/fhir.who.smart-ig-empty",
+    "version": "0.2.1",
+    "name": "smartigempty"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "package": "fhir.who.smart-ig-empty",
+  "version": "0.2.1",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [],
+  "profiles": {},
+  "usage": {
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ]
+  }
+}
