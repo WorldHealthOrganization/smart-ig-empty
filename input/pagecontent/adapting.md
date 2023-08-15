@@ -1,1 +1,0 @@
-# Adapting Guidelines for Country use
