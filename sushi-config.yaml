@@ -1,13 +1,8 @@
-# ╭─────────────────────────Commonly Used ImplementationGuide Properties───────────────────────────╮
-# │  The properties below are used to create the ImplementationGuide resource. The most commonly   │
-# │  used properties are included. For a list of all supported properties and their functions,     │
-# │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: smart-ig-empty
+id: fhir.who.smart-ig-empty
 canonical: http://worldhealthorganization.github.io/smart
 name: SMART
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+title: SMART Empty IG
+description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
@@ -20,153 +15,29 @@ publisher:
   url: http://who.int
   # email: test@example.org
 
-# The dependencies property corresponds to IG.dependsOn. The key is the
-# package id and the value is the version (or dev/current). For advanced
-# use cases, the value can be an object with keys for id, uri, and version.
-#
-# dependencies:
-#   hl7.fhir.us.core: 3.1.0
-#   hl7.fhir.us.mcode:
-#     id: mcode
-#     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-#     version: 1.0.0
-#
-#
-# The pages property corresponds to IG.definition.page. SUSHI can
-# auto-generate the page list, but if the author includes pages in
-# this file, it is assumed that the author will fully manage the
-# pages section and SUSHI will not generate any page entries.
-# The page file name is used as the key. If title is not provided,
-# then the title will be generated from the file name.  If a
-# generation value is not provided, it will be inferred from the
-# file name extension.  Any subproperties that are valid filenames
-# with supported extensions (e.g., .md/.xml) will be treated as
-# sub-pages.
-#
+
+meta:
+  profile:
+    - SMARTImplementationGuide
+
+
+
+dependencies:
+  fhir.who.smart-base: dev
+
 pages:
   index.md:
     title: Home
-    changes.md:
-      title: Changes
-    dependencies.md:
-      title: Dependencies
-    references.md:
-      title: References
-    adapting.md:
-      title: Adapting Guidelines for Country use
-  business-requirements.md:
-    title: Business Requirements
-    concepts.md:
-      title: Concepts
-    personas.md:
-      title: Generic Personas
-    scenarios.md:
-      title: User Scenarios
-    business-processes.md:
-      title: Business Processes
-    dictionary.md:
-      title: Data Dictionary
-    decision-logic.md:
-      title: Decision-support logic
-    indicators.md:
-      title: Indicator and Performance Metrics
-    functional-requirements.md:
-      title: Functional Requirements
-    non-functional-requirements.md:
-      title: Non-functional Requirements
-  data-models-and-exchange.md:
-    title: Data Models and Exchange
-    system-actors.md:
-      title: System Actors
-    sequence-diagrams.md:
-      title: Sequence Diagrams
-    transactions.md:
-      title: Transactions
-#    logical-models.md:
-#      title: Logical Models
-    indicators-measures.md:
-      title: Indicators and Measures
-#    profiles.xml:
-#      title: Content profiles
-    codings.md:
-      title: Codings
+  changes.md:
+    title: Changes
+  downloads.md: 
+    title: Downloads
 
-  deployment.md:
-    Title: Deployment
-    security-privacy.md:
-      title: Security and Privacy Considerations
-    testing.md: 
-      title: Testing
-    test-data.md: 
-      title: Test Data
-    reference-implementations.md: 
-      title: Reference Implementations
-    downloads.md: 
-      title: Downloads
-  indices.md:
-    title: Indices
-    artifacts.md: 
-      title: Artifact Index
-    maps.md: 
-      title: Mappings
-
-#
-#
-# The parameters property represents IG.definition.parameter. Rather
-# than a list of code/value pairs (as in the ImplementationGuide
-# resource), the code is the YAML key. If a parameter allows repeating
-# values, the value in the YAML should be a sequence/array.
-# For parameters defined by core FHIR see:
-# http://build.fhir.org/codesystem-guide-parameter-code.html
-# For parameters defined by the FHIR Tools IG see:
-# http://build.fhir.org/ig/FHIR/fhir-tools-ig/branches/master/CodeSystem-ig-parameters.html
-#
-# parameters:
-#   excludettl: true
-#   validation: [allow-any-extensions, no-broken-links]
-#
-# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
-# │ The menu property will be used to generate the input/menu.xml file. The menu is represented    │
-# │ as a simple structure where the YAML key is the menu item name and the value is the URL.       │
-# │ The IG publisher currently only supports one level deep on sub-menus. To provide a             │
-# │ custom menu.xml file, do not include this property and include a `menu.xml` file in            │
-# │ input/includes. To use a provided input/includes/menu.xml file, delete the "menu"              │
-# │ property below.                                                                                │
-# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home: 
-    Summary: index.html
-    Changes: changes.html
-    Dependencies: dependencies.html
-    References: references.html
-    Adapting Guidelines for Country use: adapting.html
-  Business Requirements: 
-    Concepts: concepts.html
-    Generic Personas: personas.html
-    User Scenarios: scenarios.html
-    Business Processes: business-processes.html
-    Data Dictionary: dictionary.html
-    Decision-support Logic: decision-logic.html
-    Indicator and Performance Metrics: indicators.html
-    Functional Requirements: functional-requirements.html
-    Non-functional Requirements: non-functional-requirements.html
-  Data Models and Exchange:
-    System Actors: system-actors.html
-    Sequence Diagrams: sequence-diagrams.html
-    Transactions: transactions.html
-    Indicators and Measures: indicators-measures.html
-    Codings: codings.html
-
-  Deployment:
-    Security and Privacy Considerations: security-privacy.html
-    Testing: testing.html
-    Test Data: test-data.html
-    Reference Implementations: reference-implementations.html
-    Downloads: downloads.html
-
+  Home: index.html 
+  Downloads: downloads.html
   Indices:
     Artifact Index: artifacts.html
-    Mappings: maps.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │
