@@ -1,4 +1,4 @@
-id: fhir.who.smart-ig-empty
+id: who.fhir.smart-ig-empty
 canonical: http://worldhealthorganization.github.io/smart
 name: SMART
 title: SMART Empty IG
@@ -168,3 +168,5 @@ menu:
 #   if InstanceOf references a profile:
 #
 #   setId: always # always | standalone-only
+dependencies:
+  who.fhir.smart-base: current
