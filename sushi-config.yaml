@@ -20,11 +20,6 @@ meta:
   profile:
     - SMARTImplementationGuide
 
-
-
-dependencies:
-  fhir.who.smart-base: dev
-
 pages:
   index.md:
     title: Home
