@@ -7,12 +7,9 @@ This WHO <mark>[insert health domain here]</mark> Implementation Guide details h
 
 
 ### Summary 
-This implementation guide includes a machine-readable representation of WHO guidelines for immunization, as documented in the WHO Digital Adaptation Kit: SMART Guidelines for Immunizations (link forthcoming) and explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of immunization use cases by WHO Member States.
+This implementation guide includes a machine-readable representation of WHO guidelines for <mark>[insert health domain here]</mark>, as documented in the WHO Digital Adaptation Kit for <mark>[insert health domain here]</mark> (link forthcoming) and explicitly encodes computer-interoperable logic, including data models, terminologies, and logic expressions, in a computable language to support implementation of <mark>[insert health domain here]</mark> use cases by WHO Member States.
 
-The guide is part of the [WHO SMART Guidelines approach](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines) to support countries to integrate WHO global health and data recommendations into digital systems accurately and consistently. It defines a series of FHIR Resources, Profiles, Extensions, and Terminology based on the WHO Immunization Digital Adaptation Kit (link forthcoming). 
-
-Resources and guidance in this guide are provided to support application of the WHO recommendations on routine vaccinations:
-[WHO Recommendations on Immunization](https://www.who.int/teams/immunization-vaccines-and-biologicals). The decision support artifacts specifically represent the content defined as part of routine immunizations: [WHO recommendations for routine immunization - summary tables](https://www.who.int/teams/immunization-vaccines-and-biologicals/policies/who-recommendations-for-routine-immunization---summary-tables).
+The guide is part of the [WHO SMART Guidelines approach](https://www.who.int/teams/digital-health-and-innovation/smart-guidelines) to support countries to integrate WHO global health and data recommendations into digital systems accurately and consistently. It defines a series of FHIR Resources, Profiles, Extensions, and Terminology based on the WHO <mark>[insert health domain here]</mark> Digital Adaptation Kit (link forthcoming). 
 
 Supporting guidance, recommendations, resources, and standards are included in the <a href="references.html">References</a> and <a href="dependencies.html">Dependencies</a>.
 
@@ -24,7 +21,7 @@ This implementation guide is broken into the following levels of [knowledge repr
 - <a href="data-models-and-exchange.html">Data Models and Exchange</a> - contains the data models and data exchange protocols with actors and transactions defined.
 - <a href="deployment.html">Deployment Guidance </a> - contains relevant technical specifications and guidance, testing resources, reference implementation materials, and supporting guidance for adaptation to local contexts.
 
-This guide is prepared to facilitate digital implementation of WHO Immunization guidelines by providing FHIR-based computable representations of and implementation guidance for using the key components of the WHO Immunization digital adaptation kit (DAK):
+This guide is prepared to facilitate digital implementation of WHO <mark>[insert health domain here]</mark> guidelines by providing FHIR-based computable representations of and implementation guidance for using the key components of the WHO <mark>[insert health domain here]</mark> digital adaptation kit (DAK):
 
 * Health Interventions & Recommendations
 * Generic Personas
