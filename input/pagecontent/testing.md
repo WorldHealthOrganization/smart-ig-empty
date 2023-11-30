@@ -27,8 +27,8 @@ Prerequisites: [Docker](https://www.docker.com)
 The matchbox server configuration allows you to test the mappings. For more information: [https://github.com/ahdis/matchbox](https://github.com/ahdis/matchbox)
 
 How to setup the server:
-1. Download the <a href="https://raw.githubusercontent.com/WorldHealthOrganization/smart-immunizations-measles/main/testing/docker/questionnaires/.env" download>.env file</a>  
-2. Download the <a href="https://raw.githubusercontent.com/WorldHealthOrganization/smart-immunizations-measles/main/testing/docker/questionnaires/docker-compose.yml" download>docker compose file</a>
+1. Download the <a href="https://raw.githubusercontent.com/{{site.data.features.github.repo_owner}}/{{site.data.features.github.repo_name}}/main/testing/docker/questionnaires/.env" download>.env file</a>  
+2. Download the <a href="https://raw.githubusercontent.com/{{site.data.features.github.repo_owner}}/{{site.data.features.github.repo_name}}/main/testing/docker/questionnaires/docker-compose.yml" download>docker compose file</a>
 3. From the same folder, run `docker-compose up -d`  
 4. Navigate to http://localhost:<static_server_port> e.g. <a href="http://localhost:8087">http://localhost:8087</a>  
 5. Follow the instructions there to setup and run the extractions
@@ -36,8 +36,8 @@ How to setup the server:
 
 #### Scheduling and Decision Logic, Measures
 CQFRuler
-1. Download the <a href="https://raw.githubusercontent.com/WorldHealthOrganization/smart-immunizations-measles/main/testing/docker/logic/.env" download>.env file</a>  
-2. Download the <a href="https://raw.githubusercontent.com/WorldHealthOrganization/smart-immunizations-measles/main/testing/docker/logic/docker-compose.yml" download>docker compose file</a>
+1. Download the <a href="https://raw.githubusercontent.com/{{site.data.features.github.repo_owner}}/{{site.data.features.github.repo_name}}/main/testing/docker/logic/.env" download>.env file</a>  
+2. Download the <a href="https://raw.githubusercontent.com/{{site.data.features.github.repo_owner}}/{{site.data.features.github.repo_name}}/main/testing/docker/logic/docker-compose.yml" download>docker compose file</a>
 3. From the same folder, run `docker-compose up -d`  
-4. Navigate to http://localhost:<static_server_port> e.g. <a href="http://localhost:8087">http://localhost:8087</a>  
+4. Navigate to http://localhost:<static_server_port> e.g. <a href="http://localhost:8080">http://localhost:8080</a>  
 5. Follow the instructions there to setup and run the plan definitions.
