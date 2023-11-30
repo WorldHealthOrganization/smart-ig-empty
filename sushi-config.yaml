@@ -254,4 +254,7 @@ menu:
 #
 #   setId: always # always | standalone-only
 dependencies:
-  who.fhir.smart-base: current
+  who.fhir.smart-base: dev
+  hl7.fhir.uv.sdc: 3.0.0
+  hl7.fhir.uv.cpg: current
+#  hl7.fhir.us.cqfmeasures: current
