@@ -89,15 +89,6 @@ pages:
       title: Mappings
 
 
-
-pages:
-  index.md:
-    title: Home
-  changes.md:
-    title: Changes
-  downloads.md: 
-    title: Downloads
-
 menu:
   Home: 
     Summary: index.html
