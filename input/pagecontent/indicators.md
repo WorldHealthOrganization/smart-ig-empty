@@ -1,4 +1,4 @@
-This page includes indicators and performance metrics that would be aggregated from core data elements identified and is extracted from the WHO Digital Adaptation Kit (DAK): SMART Guidelines for Immunizations (link forthcoming). 
+This page includes indicators and performance metrics that would be aggregated from core data elements identified and is extracted from the WHO Digital Adaptation Kit (DAK) for <mark>[insert health domain here]</mark> (link forthcoming). 
 
 For full operational descriptions of the indicators included and their references, see Web Annex C of the DAK. 
 For machine-readable representations, see the <a href="indicators-measures.html">Indicators and Measures</a>. 
@@ -23,4 +23,4 @@ These indicators may be aggregated automatically from the digital tracking tool 
 {:.grid}
 
 ### Indicators and performance metrics table
-The following indicators are extracted from the DAK for Immunizations. The full indicators and performance metrics table is available in Web Annex C of the DAK. To see linkages to references and full details of the L2 content, please reference the DAK. 
+The following indicators are extracted from the DAK for <mark>[insert health domain here]</mark>. The full indicators and performance metrics table is available in Web Annex C of the DAK. To see linkages to references and full details of the L2 content, please reference the DAK. 
