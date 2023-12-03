@@ -1,6 +1,6 @@
 # This workflow uses a remote action to do some repository actions like updating the readme files
 
-name: CI
+name: Call remote repo actions
 
 # Controls when the action will run. 
 on:
