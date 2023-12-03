@@ -5,6 +5,7 @@
 ![QA errors](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fworldhealthorganization.github.io%2Fsmart-ig-empty%2Fqa.json&query=%24.errs&logoColor=red&label=QA%20errors&color=yellow)
 ![QA warnings](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fworldhealthorganization.github.io%2Fsmart-ig-empty%2Fqa.json&query=%24.warnings&logoColor=orange&label=QA%20warnings&color=yellow)
 ![QA hints](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fworldhealthorganization.github.io%2Fsmart-ig-empty%2Fqa.json&query=%24.hints&logoColor=yellow&label=QA%20hints&color=yellow)
+* This is a template file - this text should be removed
 <!--/badges-->
 
 # WHO SMART GUIDELINES - EMPTY IG
