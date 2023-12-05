@@ -13,5 +13,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  call_update_readme: 
+  call-update-readme:
     uses: WorldHealthOrganization/smart-base/.github/workflows/update_readme.yml@main
+    with:
+      repositoryOwner: ${{ github.repository_owner }}
+      repositoryName: ${{ github.event.repository.name }}
