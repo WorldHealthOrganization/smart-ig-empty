@@ -254,4 +254,4 @@ menu:
 #
 #   setId: always # always | standalone-only
 dependencies:
-  who.fhir.smart-base: current
+  who.smart: current
