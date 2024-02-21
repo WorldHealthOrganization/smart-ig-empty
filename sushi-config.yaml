@@ -79,6 +79,8 @@ pages:
       title: Test Data
     reference-implementations.md: 
       title: Reference Implementations
+    trust_domain.md:
+      title: Trust Domains
     downloads.md: 
       title: Downloads
   indices.md:
