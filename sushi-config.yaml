@@ -113,7 +113,6 @@ menu:
     Sequence Diagrams: sequence-diagrams.html
     Transactions: transactions.html
     Indicators and Measures: indicators-measures.html
-    Trust Domains: trust_domain.html
     Codings: codings.html
 
   Deployment:
@@ -121,6 +120,7 @@ menu:
     Testing: testing.html
     Test Data: test-data.html
     Reference Implementations: reference-implementations.html
+    Trust Domains: trust_domain.html
     Downloads: downloads.html
 
   Indices:
