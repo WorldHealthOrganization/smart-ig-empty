@@ -33,6 +33,9 @@ The L3 FHIR Implementation Guide for the <mark>[insert health domain here]</mark
 ### L4 Executable guidelines
 Reference implementations representing the L4 layer for the <mark>[insert health domain here]</mark> SMART Guidelines are not yet available. Links will be published here as soon as they're available.
 
+### L5 Dynamic guidelines
+Content representing the L5 layer for the <mark>[insert health domain here]</mark> SMART Guidelines are not yet available. Links will be published here as soon as they're available.
+
 ### News
 
 ### Contact Us
