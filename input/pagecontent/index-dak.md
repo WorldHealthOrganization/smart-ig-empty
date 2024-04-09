@@ -8,11 +8,11 @@
 ### Summary 
 This WHO <mark>[insert health domain here]</mark> DAK <mark>add content here</mark>
 
-### L1 Narrative Guidelines
+### L1 Narrative guidelines
 <mark>[insert content here]</mark>
 
-### L2 DAK 
-The L2 <mark>[insert health domain here]</mark> DAK publications and implementations tools can be found here:
+### L2 Operational guidelines
+The L2 <mark>[insert health domain here]</mark> Digital adaptation kit publications and implementations tools can be found here:
 
 <!-- insert links inside the parentheses below --->
 - [Published DAK Document]()
@@ -27,10 +27,10 @@ The L2 <mark>[insert health domain here]</mark> DAK publications and implementat
  
 - [Link to functional and non functional requirements]()
 
-### L3 FHIR Implementation Guide
+### L3 Machine readable guidelines
 The L3 FHIR Implementation Guide for the <mark>[insert health domain here]</mark> SMART Guidelines is yet to be published. Links will be published here as soon as they're available.
 
-### L4 Reference Implementations
+### L4 Executable guidelines
 Reference implementations representing the L4 layer for the <mark>[insert health domain here]</mark> SMART Guidelines are not yet available. Links will be published here as soon as they're available.
 
 ### News
