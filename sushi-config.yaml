@@ -79,8 +79,6 @@ pages:
       title: Test Data
     reference-implementations.md: 
       title: Reference Implementations
-    trust_domain.md:
-      title: Trust Domains
     downloads.md: 
       title: Downloads
   indices.md:
@@ -120,7 +118,6 @@ menu:
     Testing: testing.html
     Test Data: test-data.html
     Reference Implementations: reference-implementations.html
-    Trust Domains: trust_domain.html
     Downloads: downloads.html
 
   Indices:
@@ -261,13 +258,3 @@ dependencies:
   hl7.fhir.uv.sdc: 3.0.0
   hl7.fhir.uv.cpg: current
 #  hl7.fhir.us.cqfmeasures: current
-
-
-parameters:
-  translation-supplements: input/translations  
-  i18n-default-lang: en
-  i18n-lang: 
-    - pt
-    - nl
-    - fr
-    - es
