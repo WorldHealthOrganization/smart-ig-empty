@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 This WHO <mark>[insert health domain here]</mark> Implementation Guide details how to use Health Level 7 (HL7) Fast Healthcare Interoperability Resources (FHIR) for consistent digital representation of <mark>[insert health domain here]</mark> services.
 
 <div>
@@ -46,10 +45,3 @@ This guide assumes use of the following resources:
 
 ### Disclaimer
 The specification herewith documented is a demo working specification and may not be used for any implementation purposes. This draft is provided without warranty of completeness or consistency and the official publication supersedes this draft. No liability can be inferred from the use or misuse of this specification or its consequences.
-=======
-<!-- please keep only this for L2 DAK -->
-{% include index-dak.md %}
-
-<!-- please keep only this for L3 FHIR IG -->
-{% include index-ig.md %}
->>>>>>> Stashed changes
