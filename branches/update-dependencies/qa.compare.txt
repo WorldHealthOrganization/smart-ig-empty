@@ -1,0 +1,64 @@
+SMART : Validation Results
+=========================================
+
+err = 3, warn = 50, info = 0
+$--
+Generated $--. FHIR version $-- for who.fhir.smart-ig-empty#$-- (canonical = http://worldhealthorganization.github.io/smart)
+ Build Errors : 0 / 4 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty : 3 / 46 / 2
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json ==
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.3.0)
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.status: ValueSet 'http://hl7.org/fhir/ValueSet/publication-status|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.license: ValueSet 'http://hl7.org/fhir/ValueSet/spdx-license|4.0.1' not found
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.license: Value is 'CC0-1.0' but must be 'CC-BY-SA-3.0-IGO'
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.fhirVersion[0]: ValueSet 'http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1' not found
+ERROR: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.1)
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[0].page[0].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[0].page[1].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[0].page[2].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[0].page[3].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[0].page[4].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[0].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[1].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[2].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[3].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[4].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[5].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[6].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[7].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[1].page[8].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[2].page[0].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[2].page[1].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[2].page[2].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[2].page[3].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[2].page[4].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3].page[0].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3].page[1].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3].page[2].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3].page[3].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3].page[4].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[3].page[5].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[4].page[0].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.page.page[4].page[1].generation: ValueSet 'http://hl7.org/fhir/ValueSet/guide-page-generation|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[0].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[1].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[2].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[3].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[4].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[5].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[6].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[7].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[8].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[9].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[10].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[11].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[12].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[13].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
+WARNING: ImplementationGuide/who.fhir.smart-ig-empty: ImplementationGuide.definition.parameter[14].code: ValueSet 'http://hl7.org/fhir/ValueSet/guide-parameter-code|4.0.1' not found
