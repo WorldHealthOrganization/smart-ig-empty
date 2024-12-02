@@ -1,11 +1,11 @@
 id: smart.who.int.ig-empty
 canonical: http://smart.who.int/ig-empty
-name: SMARTIGEmpty
-title: SMART Empty IG
+name: IGEmpty
+title: Empty IG
 description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
 status: draft # draft | active | retired | unknown
 experimental: false
-version: 1.0.0
+version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 #fhirVersion: 4.3.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
@@ -35,7 +35,7 @@ dependencies:
   # Actual dependencies
   smart.who.int.base:
     id: sb
-    version: dev
+    version: 0.1.0
     reason: This IG uses SMART base computable guideline capabilities
   smart.who.int.base-clinical:
     id: sbc
