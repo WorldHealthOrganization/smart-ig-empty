@@ -23,6 +23,16 @@ dependencies:
 #    version: 4.6.0
 #    reason: |
 #      This IG leverages subscription constructs pre-adopted from R4B.  Importing this IG makes the relevant terminologies available.
+  # NOTE: These dependencies are required because SUSHI doesn't load transitive dependencies
+  # See the zulip thread here: https://chat.fhir.org/#narrow/stream/215610-shorthand/search/transitive
+  hl7.terminology: 5.5.0
+  hl7.fhir.uv.extensions.r4: 5.1.0
+  hl7.fhir.uv.cql: 1.0.0
+  hl7.fhir.uv.crmi: 1.0.0
+  hl7.fhir.uv.sdc: 3.0.0
+  hl7.fhir.uv.cpg: 2.0.0
+  hl7.fhir.us.cqfmeasures: 5.0.0
+  # Actual dependencies
   smart.who.int.base:
     id: sb
     version: dev
