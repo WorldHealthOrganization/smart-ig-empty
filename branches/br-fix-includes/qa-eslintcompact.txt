@@ -1,0 +1,8 @@
+IGEmpty
+=========================================
+
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 19205, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 19205, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0) (STRUCTURE)
+
+err = 2, warn = 0, info = 0
+IG Publisher Version: 1.7.5
