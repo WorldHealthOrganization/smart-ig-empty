@@ -105,6 +105,8 @@ pages:
       title: Test Data
     reference-implementations.md: 
       title: Reference Implementations
+    trust_domain.md:
+      title: Trust Domains
     downloads.md: 
       title: Downloads
   indices.md:
@@ -144,6 +146,7 @@ menu:
     Testing: testing.html
     Test Data: test-data.html
     Reference Implementations: reference-implementations.html
+    Trust Domains: trust_domain.html
     Downloads: downloads.html
 
   Indices:
