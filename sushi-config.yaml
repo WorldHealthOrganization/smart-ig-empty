@@ -1,24 +1,50 @@
-id: who.fhir.smart-ig-empty
-canonical: http://worldhealthorganization.github.io/smart
-name: SMART
-title: SMART Empty IG
+id: smart.who.int.ig-empty
+canonical: http://smart.who.int/ig-empty
+name: IGEmpty
+title: Empty IG
 description: An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides
 status: draft # draft | active | retired | unknown
+experimental: false
 version: 0.1.0
-fhirVersion: 4.3.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+#fhirVersion: 4.3.0 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
-# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+license: CC-BY-SA-3.0-IGO # https://www.hl7.org/fhir/valueset-spdx-license.html
+jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: WHO
   url: http://who.int
   # email: test@example.org
 
+dependencies:
+#  hl7.fhir.core:
+#    id: r4b
+#    version: 4.6.0
+#    reason: |
+#      This IG leverages subscription constructs pre-adopted from R4B.  Importing this IG makes the relevant terminologies available.
+  # NOTE: These dependencies are required because SUSHI doesn't load transitive dependencies
+  # See the zulip thread here: https://chat.fhir.org/#narrow/stream/215610-shorthand/search/transitive
+  hl7.terminology: 5.5.0
+  hl7.fhir.uv.extensions.r4: 5.1.0
+  hl7.fhir.uv.cql: 1.0.0
+  hl7.fhir.uv.crmi: 1.0.0
+  hl7.fhir.uv.sdc: 3.0.0
+  hl7.fhir.uv.cpg: 2.0.0
+  hl7.fhir.us.cqfmeasures: 5.0.0
+  # Actual dependencies
+  smart.who.int.base:
+    id: sb
+    version: 0.1.0
+    reason: This IG uses SMART base computable guideline capabilities
+  smart.who.int.base-clinical:
+    id: sbc
+    version: dev
+    reason: This IG uses SMART base clinical capabilities
 
 meta:
   profile:
-    - SMARTImplementationGuide
+    - http://smart.who.int/base/StructureDefinition/SGImplementationGuide
 
 pages:
   index.md:
@@ -256,8 +282,3 @@ menu:
 #   if InstanceOf references a profile:
 #
 #   setId: always # always | standalone-only
-dependencies:
-  smart.who.int.base: current
-  hl7.fhir.uv.sdc: 3.0.0
-  hl7.fhir.uv.cpg: current
-#  hl7.fhir.us.cqfmeasures: current
