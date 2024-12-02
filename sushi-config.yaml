@@ -30,8 +30,8 @@ dependencies:
   hl7.fhir.uv.cql: 1.0.0
   hl7.fhir.uv.crmi: 1.0.0
   hl7.fhir.uv.sdc: 3.0.0
-  hl7.fhir.uv.cpg: current
-  hl7.fhir.us.cqfmeasures: current
+  hl7.fhir.uv.cpg: 2.0.0
+  hl7.fhir.us.cqfmeasures: 5.0.0
   # Actual dependencies
   smart.who.int.base:
     id: sb
