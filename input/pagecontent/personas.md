@@ -12,6 +12,7 @@ key competences of are defined in the following table.
 
 **Descriptions of key generic personas**
 
-{% include fragment-actors.liquid %}
+<!-- Cannot find this dependency -->
+<!--{ % include fragment-actors.liquid %}-->
 
 <br/>
