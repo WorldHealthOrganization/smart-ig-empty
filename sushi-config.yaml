@@ -37,10 +37,10 @@ dependencies:
     id: sb
     version: 0.1.0
     reason: This IG uses SMART base computable guideline capabilities
-  smart.who.int.base-clinical:
-    id: sbc
-    version: dev
-    reason: This IG uses SMART base clinical capabilities
+  # smart.who.int.base-clinical:
+  #   id: sbc
+  #   version: current
+  #   reason: This IG uses SMART base clinical capabilities
 
 meta:
   profile:
