@@ -1,0 +1,17 @@
+IGEmpty : Validation Results
+=========================================
+
+err = 2, warn = 4, info = 0
+IG Publisher Version: 1.8.20
+Generated Tue Mar 11 11:17:52 UTC 2025. FHIR version 4.0.1 for smart.who.int.ig-empty#0.1.0 (canonical = http://smart.who.int/ig-empty)
+ Build Errors : 0 / 0 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty : 2 / 4 / 2
+</table>
+== n/a ==
+== fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json ==
+ERROR: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent version is 6.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent version is 5.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.uv.cql#1.0.0 released on 2024-05-31, but the most recent version is 2.0.0-ballot. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[4]: The ImplementationGuide uses package hl7.fhir.uv.sdc#3.0.0 released on 2022-03-08, but the most recent version is 4.0.0-ballot. This reference is getting old and the more recent version should be considered
+ERROR: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0)
