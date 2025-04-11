@@ -4,33 +4,27 @@
      xmlns:xi="http://www.w3.org/2001/XInclude"
      lang="en">
 
-<p>SMART Guidelines, including this one, are required to express the license their copyright license.</p>
-<p>All WHO-authored SMART Guidelines shall be subject to the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License. This includes all commons and dependencies authored by the WHO and this current guidance.<p>
+<p>SMART Guidelines products are required to express their copyright license.</p>
 
-<h3>SMART Guidelines license details</h3>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/igo/88x31.png"/></a>
+<div class="info-box must">
+  <span class="info-title">Required licensing information</span>
+All WHO-authored SMART Guidelines are subject to the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO licence (<a href ="https://creativecommons.org/licenses/by-nc-sa/3.0/igo/">CC-BY-NC-SA-3.0-IGO</a>). This includes all commons and dependencies authored by the WHO and this current guidance.
+</div>
 
-<p>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/igo/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO License</a>.</p>
-
-<p>Copyright(c) 2022 World Health Organization Some rights reserved.</p>
-
-<p>
-Under the terms of this licence, you may copy, redistribute and adapt the work for noncommercial purposes provided the work
-is appropriately cited, as indicated below. In any use of this work, there should be no suggestion that WHO endorses any specific
-organizations, products or services. The use of the WHO logo is not permitted. If you adapt the work, then you must license your
-work under the same or equivalent Creative Commons licence. If you create a translation of this work, you should add the following
-disclaimer along with the suggested citation: "This translation was not created by the World Health Organization (WHO). WHO is not
-responsible for the content or accuracy of this translation. The original English edition shall be the binding and authentic edition."
-Any mediation relating to disputes arising under the licence shall be conducted in accordance with the mediation rules of the World
-Intellectual Property Organization. (http://www.wipo.int/amc/en/mediation/rules/).
-</p>
 
 <h3>License details for Software</h3>
 
-<p>Copyright(c) 2022 World Health Organization All rights reserved.</p>
+<div class="info-box must">
+  <span class="info-title">Source code used in SMART Guidelines</span>
 
-<p><a href ="https://opensource.org/license/bsd-3-clause/">3-clause BSD license</a></p>
+<p>Copyright &copy; 2025, World Health Organization.</p>
+
+<p>SMART Guidelines source code may include software libraries for decision support logic, indicator calculations, and scheduling logic.</p>
+
+
+<p>This work is licensed under the <a href ="https://opensource.org/license/bsd-3-clause">BSD-3-clause</a></p>
+
 <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
 <ol>
 <li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
@@ -41,4 +35,8 @@ Intellectual Property Organization. (http://www.wipo.int/amc/en/mediation/rules/
 </ol>
 <p>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </p>
+
+<p>Any dispute arising from or relating to this license, including its validity, interpretation, or application, shall, unless amicably settled, be subject to conciliation. In the event the dispute is not resolved by conciliation within thirty (30) days, the dispute shall be settled by arbitration. The arbitration shall be conducted in accordance with the modalities to be agreed upon by the parties or, in the absence of agreement within thirty (30) days of written communication of the intent to commence arbitration, with the UNCITRAL Arbitration Rules. The parties shall accept the arbitral award as final.</p>
+</div>
+
 </div>
