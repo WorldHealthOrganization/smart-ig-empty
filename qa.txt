@@ -1,0 +1,22 @@
+IGEmpty : Validation Results
+=========================================
+
+err = 2, warn = 3, info = 0
+IG Publisher Version: 1.8.26 Out of date - current version is ?pub-ver-1?
+Generated Fri May 09 08:21:42 UTC 2025. FHIR version 4.0.1 for smart.who.int.ig-empty#0.1.0 (canonical = http://smart.who.int/ig-empty)
+ Build Errors : 6 / 0 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty : 2 / 3 / 2
+</table>
+== n/a ==
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 299, column 8: The link 'definitions.xml.zip' for "XML" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 300, column 8: The link 'definitions.json.zip' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/p/a at Line 302, column 9: The link 'definitions.ttl.zip' for "TTL" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 316, column 8: The link 'examples.xml.zip' for "XML" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 317, column 8: The link 'examples.json.zip' for "JSON" cannot be resolved
+ERROR: /github/workspace/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 318, column 8: The link 'examples.ttl.zip' for "TTL" cannot be resolved
+== fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json ==
+ERROR: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[0]: The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent appropriate version is 6.3.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.2.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.dependsOn[7]: The ImplementationGuide uses package smart.who.int.base#0.1.0 released on 2024-09-20, but the most recent appropriate version is 0.2.0. This reference is getting old and the more recent version should be considered
+ERROR: ImplementationGuide/smart.who.int.ig-empty: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0)

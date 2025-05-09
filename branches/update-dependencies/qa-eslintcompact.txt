@@ -1,0 +1,13 @@
+SMART
+=========================================
+
+Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
+Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
+/github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json: line 1, col 115, Error - Canonical URLs must be absolute URLs if they are not fragment references (SMARTImplementationGuide) (INVALID)
+/github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json: line 1, col 14722, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.3.0) (STRUCTURE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-who.fhir.smart-ig-empty.json: line 1, col 14723, Warning - Profile reference 'SMARTImplementationGuide' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles (STRUCTURE)
+
+err = 2, warn = 5, info = 0
+IG Publisher Version: 1.7.5

@@ -1,0 +1,17 @@
+IGEmpty
+=========================================
+
+Generic: line 0, col 0, Error - The link 'definitions.xml.zip' for "XML" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'definitions.json.zip' for "JSON" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'definitions.ttl.zip' for "TTL" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'examples.xml.zip' for "XML" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'examples.json.zip' for "JSON" cannot be resolved (NOTFOUND)
+Generic: line 0, col 0, Error - The link 'examples.ttl.zip' for "TTL" cannot be resolved (NOTFOUND)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 19235, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 1941, Warning - The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent appropriate version is 6.3.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 2116, Warning - The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent appropriate version is 5.2.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 3199, Warning - The ImplementationGuide uses package smart.who.int.base#0.1.0 released on 2024-09-20, but the most recent appropriate version is 0.2.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 19235, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0) (STRUCTURE)
+
+err = 2, warn = 3, info = 0
+IG Publisher Version: 1.8.26
