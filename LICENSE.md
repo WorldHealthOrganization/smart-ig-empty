@@ -6,10 +6,10 @@
 
 <p>SMART Guidelines products are required to express their copyright license.</p>
 
-<h3>License details for Software</h3>
+<h3>License details for SMART Guidelines Machine readable guidelines (L3) and related software</h3>
 
 <div class="info-box must">
-  <span class="info-title">Source code used in SMART Guidelines</span>
+  <span class="info-title"> Software code used in SMART Guidelines Machine readable guidelines (L3) and related software</span>
 
 <p>Copyright &copy; 2025, World Health Organization.</p>
 
