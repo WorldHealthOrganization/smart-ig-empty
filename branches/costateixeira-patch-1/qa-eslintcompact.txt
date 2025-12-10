@@ -1,0 +1,12 @@
+IGEmpty
+=========================================
+
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 19235, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1) (STRUCTURE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 1941, Warning - The ImplementationGuide uses package hl7.terminology#5.5.0 released on 2024-03-09, but the most recent version is 6.2.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 2116, Warning - The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.1.0 released on 2024-04-27, but the most recent version is 5.2.0. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 2260, Warning - The ImplementationGuide uses package hl7.fhir.uv.cql#1.0.0 released on 2024-05-31, but the most recent version is 2.0.0-ballot. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 2552, Warning - The ImplementationGuide uses package hl7.fhir.uv.sdc#3.0.0 released on 2022-03-08, but the most recent version is 4.0.0-ballot. This reference is getting old and the more recent version should be considered (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/ImplementationGuide-smart.who.int.ig-empty.json: line 1, col 19235, Error - ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://smart.who.int/base/StructureDefinition/SGImplementationGuide|0.1.0) (STRUCTURE)
+
+err = 2, warn = 4, info = 0
+IG Publisher Version: 1.8.20

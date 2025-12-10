@@ -1,0 +1,19 @@
+{
+  "url" : "http://smart.who.int/ig-empty/ImplementationGuide/smart.who.int.ig-empty",
+  "name" : "IGEmpty",
+  "title" : "Empty IG",
+  "description" : "An empty Implementation Guide to be used as a starting point for building SMART Guidelines Implementation Guides",
+  "status" : "draft",
+  "package-id" : "smart.who.int.ig-empty",
+  "ig-ver" : "0.1.0",
+  "date" : "Tue, 11 Mar, 2025 11:17:13 +0000",
+  "dateISO8601" : "2025-03-11T11:17:13+00:00",
+  "errs" : 2,
+  "warnings" : 4,
+  "hints" : 0,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2027798808
+}

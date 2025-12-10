@@ -1,0 +1,43 @@
+# smart.who.int.ig-empty#0.1.0: Empty IG
+
+## Pages
+
+* [Home](index.md)
+* [Indicators and Measures](indicators-measures.md)
+* [Data Dictionary](dictionary.md)
+* [Test Data](test-data.md)
+* [DAK API Documentation Hub](dak-api.md)
+* [Business Processes](business-processes.md)
+* [Generic Personas](personas.md)
+* [System Actors](system-actors.md)
+* [Security and Privacy Considerations](security-privacy.md)
+* [Mappings](maps.md)
+* [Reference Implementations](reference-implementations.md)
+* [Decision-support logic](decision-logic.md)
+* [Dependencies](dependencies.md)
+* [Transactions](transactions.md)
+* [Testing](testing.md)
+* [Artifact Index](artifacts.md)
+* [Trust Domains](trust_domain.md)
+* [User Scenarios](scenarios.md)
+* [Concepts](concepts.md)
+* [Indices](indices.md)
+* [References](references.md)
+* [Indicator and Performance Metrics](indicators.md)
+* [Changes](changes.md)
+* [Data Models and Exchange](data-models-and-exchange.md)
+* [License](license.md)
+* [Business Requirements](business-requirements.md)
+* [Adapting Guidelines for Country use](adapting.md)
+* [Deployment](deployment.md)
+* [Codings](codings.md)
+* [Functional Requirements](functional-requirements.md)
+* [Non-functional Requirements](non-functional-requirements.md)
+* [Downloads](downloads.md)
+* [Sequence Diagrams](sequence-diagrams.md)
+
+## Resources
+
+### ImplementationGuides
+
+* [Empty IG](index.md)
